@@ -1,11 +1,18 @@
 import QtQuick 2.0
-import QtQuick.Controls 1.2
-import "import" as Import
 
-Item {
-  Import.A {
-    a:1
-  }
-  B {
-  }
+import "import" as Controls
+
+Rectangle {
+	height: 100
+	width: 100
+	color: "#363"
+
+    Controls.Rect {
+        anchors.top: 0
+        anchors.topMargin: 80
+    }
+
+    Controls.Box {
+    }
 }
+
