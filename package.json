@@ -1,0 +1,15 @@
+{
+  "name": "qmlweb_test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Yauhen Kotau <bessorion@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "qmlweb": "^0.2.0"
+  }
+}
